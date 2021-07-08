@@ -18,9 +18,6 @@ const checkValue = (num) =>{
             break;
         }else if(temp[i] === temp[i+1]){
             countDouble++;
-            // if(temp[i+1] !== temp[i+2] || temp[i] !== temp[i-1]){
-            //     countDouble++;
-            // }
         }
     }
     if(countDouble > 0 && notDecrease){
